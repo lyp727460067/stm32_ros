@@ -415,10 +415,10 @@ void EXTI0_1_IRQHandler(void)
 void EXTI4_15_IRQHandler(void)
 {
   
-    if (EXTI_GetITStatus(EXTI_Line7) != RESET) {
+    if (EXTI_GetITStatus(EXTI_Line6) != RESET) {
         g_fbBrushCnt++;
         /* Clear the EXTI line 2 pending bit */
-        EXTI_ClearITPendingBit(EXTI_Line7);
+        EXTI_ClearITPendingBit(EXTI_Line6);
     }
     
     

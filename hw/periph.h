@@ -71,7 +71,7 @@
 //
 
 #define BRUSH_TIMx_FB_PeriphClockCmd          RCC_AHBPeriphClockCmd
-#define BRUSH_TIMx_FB_PIN                     GPIO_Pin_7
+#define BRUSH_TIMx_FB_PIN                     GPIO_Pin_6
 #define BRUSH_TIMx_FB_GPIO_PORT               GPIOC
 #define BRUSH_TIMx_FB_GPIO_CLK                RCC_AHBPeriph_GPIOC
 
